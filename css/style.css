@@ -1,0 +1,401 @@
+@media screen and (max-width: 575px) {
+  nav {
+    
+    
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 0% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: crimson;
+  }
+
+  .tablas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .tablas .logo {
+    margin-left: 5%;
+  }
+  .tablas table {
+    margin: 1% 3%;
+  }
+
+  .array {
+    margin-left: 2%;
+  }
+
+  .listado {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 2%;
+  }
+
+  .listado .title{
+    width: 100%;
+  }
+
+  .listado .array{
+    width: 100%;
+  }
+
+  .listado .todo {
+    width: 100%;
+  }
+  .listado .todo p {
+    width: 100%;
+  }
+  .listado .tren {
+    width: 100%;
+  }
+
+  .resultados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultados .lavadora {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultados .lavadora h3 {
+    text-align: center;
+    width: 100%;
+  }
+  .resultados .lavadora img {
+    width: 175px;
+    height: 175px;
+  }
+  .resultados .tv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultados .tv h3 {
+    text-align: center;
+    width: 100%;
+  }
+  .resultados .tv img {
+    width: 175px;
+    height: 175px;
+  }
+
+  footer {
+    margin-top: 5%;
+    margin-left: 2%;
+  }
+}
+@media screen and (min-width: 576px) {
+  nav {
+    
+    
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 0% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: crimson;
+  }
+
+  .resultados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultados .lavadora {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultados .lavadora h3 {
+    text-align: center;
+    width: 100%;
+  }
+  .resultados .lavadora img {
+    width: 125px;
+    height: 125px;
+  }
+  .resultados .tv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultados .tv h3 {
+    text-align: center;
+    width: 100%;
+  }
+  .resultados .tv img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .tablas {
+    display: flex;
+    align-items: center;
+  }
+  .tablas table {
+    margin: 1% 3%;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav {
+    
+    
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 0% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: crimson;
+  }
+
+  .resultados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultados .lavadora {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .resultados .lavadora h3 {
+    width: 100%;
+  }
+  .resultados .lavadora img {
+    width: 250px;
+    height: 250px;
+  }
+  .resultados .tv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .resultados .tv h3 {
+    width: 100%;
+  }
+  .resultados .tv img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .tablas {
+    display: flex;
+    align-items: center;
+  }
+  .tablas table {
+    margin: 1% 3%;
+  }
+}
+@media screen and (min-width: 992px) {
+  nav {
+    
+    
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 40% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: purple;
+  }
+
+  .resultados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultados .lavadora {
+    width: auto;
+    display: flex;
+  }
+  .resultados .lavadora h3 {
+    width: 100%;
+  }
+  .resultados .lavadora img {
+    width: 250px;
+    height: 250px;
+  }
+  .resultados .tv {
+    width: auto;
+    display: flex;
+  }
+  .resultados .tv h3 {
+    width: 100%;
+  }
+  .resultados .tv img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .tablas {
+    display: flex;
+    align-items: center;
+  }
+  .tablas table {
+    margin: 1% 3%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  nav {
+
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 55% !important;
+  }
+  nav .menu .navbar-nav .enlace {
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav .enlace:hover {
+    color: purple !important;
+  }
+
+  .tabla {
+    display: flex;
+    align-items: center;
+  }
+  .tabla table {
+    margin: 1% 3%;
+  }
+
+  .array {
+    margin-left: 2%;
+  }
+
+  .listado {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 2%;
+  }
+
+  .listado p{
+    width: 100%;
+  }
+
+  .listado .array{
+    width: 100%;
+  }
+
+  .listado .todo {
+    width: 100%;
+  }
+  .listado .todo p {
+    width: 100%;
+  }
+  .listado .tren {
+    width: 100%;
+  }
+
+  .resultados .info{
+    width: 100%;
+  }
+
+  .resultados .lavadora {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .resultados .lavadora h3 {
+    width: 100%;
+  }
+  .resultados .lavadora img {
+    width: 250px;
+    height: 250px;
+  }
+  .resultados .lavadora .tesla {
+    width: 250px;
+    height: 150px;
+  }
+  .resultados .tv {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .resultados .tv h3 {
+    width: 100%;
+  }
+  .resultados .tv img {
+    width: 250px;
+    height: 250px;
+  }
+
+  footer {
+    margin-top: 5%;
+    margin-left: 2%;
+  }
+}/*# sourceMappingURL=style.css.map */
